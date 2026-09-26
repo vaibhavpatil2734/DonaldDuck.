@@ -1,0 +1,7 @@
+Current user Startup folder path
+%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
+
+All users Startup folder path
+%ProgramData%\Microsoft\Windows\Start Menu\Programs\StartUp
+
+

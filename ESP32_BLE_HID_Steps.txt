@@ -1,0 +1,36 @@
+ESP32 BLE HID — Setup & Usage
+
+1. Requirements
+- ESP32 board
+- Micro USB cable
+- Jumper wires
+- Arduino IDE
+
+2. Arduino IDE Setup
+- Open Arduino IDE → Preferences.
+- Add this ESP32 board URL:
+  https://espressif.github.io/arduino-esp32/package_esp32_index.json
+- Go to Tools → Board Manager.
+- Install ESP32 version 2.0.15.
+
+3. Install BLE Keyboard Library
+- Download:
+  https://github.com/.../ESP32-BLE-Keyboard-master.zip
+- Arduino IDE → Sketch → Include Library → Add .ZIP Library.
+- Select the downloaded ZIP file.
+
+4. Download Project
+- Clone:
+  git clone https://github.com/techchipnet/ESP32-BLE-HID.git
+- Open demo_ske.ino in Arduino IDE. //real one is sketch_BoomBoom
+
+
+6. Upload
+- Select board: ESP32 Dev Module.
+- Select the correct COM port.
+- Upload the code.
+
+7. Use
+- Power on the ESP32.
+- Connect to the BLE HID device from Bluetooth settings.
+- Activate a trigger by touching its GPIO jumper wire to GND.
