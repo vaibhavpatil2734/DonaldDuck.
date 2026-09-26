@@ -1,16 +1,17 @@
-# 🦆 DonaldDuck
+# 🦆 DonaldDuck in Action
+<div align="center">
+
+<img src="demo.gif" alt="DonaldDuck Demo" width="700">
+
+</div>
+
+⚠️ **Note:** The original ESP32 sketch used in the demo is **not included in this repository**.
+
+---
 
 ## 📝 About
 
 **DonaldDuck** is an **ESP32-based HID security research tool** inspired by the concept of a Rubber Ducky. It can emulate a keyboard and automate predefined keystrokes and commands for **authorized security testing, penetration-testing labs, and controlled environments**.
-
----
-
-## 🎬 Project Demo
-
-![DonaldDuck Demo](demo.gif)
-
-⚠️ **Note:** The original ESP32 sketch used in the demo is **not included in this repository**.
 
 ---
 
